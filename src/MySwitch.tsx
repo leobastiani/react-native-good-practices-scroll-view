@@ -6,11 +6,11 @@ import {props} from './propsAtom';
 export function MySwitch<Values>({
   prop,
   values,
-  iosOnly = false,
+  only,
   defaultValueLabel = '',
 }: {
   prop: keyof typeof props;
-  iosOnly?: boolean;
+  only: typeof Platform.OS;
   defaultValueLabel: string;
   values: readonly Values[];
 }) {
@@ -19,7 +19,7 @@ export function MySwitch<Values>({
     <View
       style={{margin: 20, flexDirection: 'row', borderWidth: 1, padding: 10}}>
       <View style={{flex: 1, justifyContent: 'center'}}>
-        <Text style={{fontSize: 24}}>{prop}</Text>
+        <Text style={{fontSize: 20}}>{prop}</Text>
       </View>
       <View style={{alignItems: 'flex-end'}}>
         <Switch
@@ -30,12 +30,12 @@ export function MySwitch<Values>({
               return values[(values.indexOf(value) + 1) % values.length];
             });
           }}
-          disabled={iosOnly && Platform.OS !== 'ios'}
+          disabled={Platform.OS !== only}
           value={!!value}
         />
         <Text>
-          {iosOnly && Platform.OS !== 'ios'
-            ? 'iosOnly'
+          {Platform.OS !== only
+            ? `${only}Only`
             : String(value) +
               `${
                 defaultValueLabel && value === undefined

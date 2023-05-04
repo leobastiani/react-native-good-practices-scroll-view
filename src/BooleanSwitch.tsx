@@ -1,10 +1,11 @@
 import React from 'react';
 import {MySwitch} from './MySwitch';
 import {BooleanSwitchValues, props as propsAtom} from './propsAtom';
+import {Platform} from 'react-native';
 
 export function BooleanSwitch(props: {
   prop: keyof typeof propsAtom;
-  iosOnly?: boolean;
+  only?: typeof Platform.OS;
   defaultValueLabel: string;
 }) {
   return (
