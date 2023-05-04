@@ -114,12 +114,12 @@ import {readFile, writeFile} from 'node:fs/promises';
 
       if (name === 'snapToInterval' || name === 'stickyHeaderIndices') {
         values = [
-          [-100, 0, 250, 500],
-          [0, 250, 500],
-          [250, 500],
           [0],
           [250],
           [500],
+          [250, 500],
+          [0, 250, 500],
+          [-100, 0, 250, 500],
         ];
       }
 
