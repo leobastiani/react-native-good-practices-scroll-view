@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "read-docs": "ts-node --compilerOptions '{ \"isolatedModules\": false }' src/commands/read-docs.ts"
+    "read-docs": "ts-node --compilerOptions '{ \"isolatedModules\": false, \"types\": [\"react-native\", \"node\"] }' src/commands/read-docs.ts"
   },
   "dependencies": {
     "immer": "^10.0.1",
