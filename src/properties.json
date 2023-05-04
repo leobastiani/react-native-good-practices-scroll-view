@@ -4,64 +4,80 @@
   },
   {
     "name": "alwaysBounceHorizontal",
-    "defaultValueLabel": "true",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "alwaysBounceVertical",
-    "defaultValueLabel": "false",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "automaticallyAdjustContentInsets",
     "defaultValueLabel": "true",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "automaticallyAdjustKeyboardInsets",
     "defaultValueLabel": "false",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "automaticallyAdjustsScrollIndicatorInsets",
     "defaultValueLabel": "true",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "bounces",
     "defaultValueLabel": "true",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "bouncesZoom",
     "defaultValueLabel": "true",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "canCancelContentTouches",
     "defaultValueLabel": "true",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "centerContent",
     "defaultValueLabel": "false",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "contentContainerStyle"
   },
   {
     "name": "contentInset",
-    "only": "ios"
+    "defaultValueLabel": "{top:0,left:0,bottom:0,right:0}",
+    "only": "ios",
+    "values": [
+      {
+        "top": -10,
+        "left": -10,
+        "bottom": -10,
+        "right": -10
+      },
+      {
+        "top": 0,
+        "left": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      {
+        "top": 25,
+        "left": 25,
+        "bottom": 25,
+        "right": 25
+      },
+      {
+        "top": 50,
+        "left": 50,
+        "bottom": 50,
+        "right": 50
+      }
+    ]
   },
   {
     "name": "contentInsetAdjustmentBehavior",
@@ -75,44 +91,75 @@
     ]
   },
   {
-    "name": "contentOffset"
+    "name": "contentOffset",
+    "defaultValueLabel": "{x:0,y:0}",
+    "values": [
+      {
+        "x": -10,
+        "y": -10
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 25,
+        "y": 25
+      },
+      {
+        "x": 50,
+        "y": 50
+      }
+    ]
   },
   {
     "name": "decelerationRate",
     "defaultValueLabel": "normal",
     "values": [
       "fast",
-      "normal"
+      "normal",
+      -10,
+      0,
+      25,
+      50
     ]
   },
   {
     "name": "directionalLockEnabled",
     "defaultValueLabel": "false",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "disableIntervalMomentum",
-    "defaultValueLabel": "false",
-    "values": "boolean"
+    "defaultValueLabel": "false"
   },
   {
     "name": "disableScrollViewPanResponder",
-    "defaultValueLabel": "false",
-    "values": "boolean"
+    "defaultValueLabel": "false"
   },
   {
     "name": "endFillColor",
-    "only": "android"
+    "only": "android",
+    "values": [
+      "red",
+      "blue",
+      "green"
+    ]
   },
   {
     "name": "fadingEdgeLength",
-    "only": "android"
+    "defaultValueLabel": "0",
+    "only": "android",
+    "values": [
+      -10,
+      0,
+      25,
+      50
+    ]
   },
   {
     "name": "horizontal",
-    "defaultValueLabel": "false",
-    "values": "boolean"
+    "defaultValueLabel": "false"
   },
   {
     "name": "indicatorStyle",
@@ -126,15 +173,15 @@
   },
   {
     "name": "invertStickyHeaders",
-    "defaultValueLabel": "false",
-    "values": "boolean"
+    "defaultValueLabel": "false"
   },
   {
     "name": "keyboardDismissMode",
     "defaultValueLabel": "none",
     "values": [
       "none",
-      "on-drag"
+      "on-drag",
+      "interactive"
     ]
   },
   {
@@ -144,48 +191,59 @@
       "always",
       "never",
       "handled",
-      "false",
-      "true"
+      false,
+      true
     ]
   },
   {
-    "name": "maintainVisibleContentPosition"
+    "name": "maintainVisibleContentPosition",
+    "values": [
+      {
+        "minIndexForVisible": -10,
+        "autoscrollToTopThreshold": -10
+      },
+      {
+        "minIndexForVisible": 0,
+        "autoscrollToTopThreshold": 0
+      },
+      {
+        "minIndexForVisible": 25,
+        "autoscrollToTopThreshold": 25
+      },
+      {
+        "minIndexForVisible": 50,
+        "autoscrollToTopThreshold": 50
+      }
+    ]
   },
   {
     "name": "maximumZoomScale",
-    "only": "ios"
+    "defaultValueLabel": "1.0",
+    "only": "ios",
+    "values": [
+      -0.5,
+      0,
+      0.5,
+      1,
+      1.5
+    ]
   },
   {
     "name": "minimumZoomScale",
-    "only": "ios"
+    "defaultValueLabel": "1.0",
+    "only": "ios",
+    "values": [
+      -0.5,
+      0,
+      0.5,
+      1,
+      1.5
+    ]
   },
   {
     "name": "nestedScrollEnabled",
     "defaultValueLabel": "true",
-    "only": "android",
-    "values": "boolean"
-  },
-  {
-    "name": "onContentSizeChange"
-  },
-  {
-    "name": "onMomentumScrollBegin"
-  },
-  {
-    "name": "onMomentumScrollEnd"
-  },
-  {
-    "name": "onScroll"
-  },
-  {
-    "name": "onScrollBeginDrag"
-  },
-  {
-    "name": "onScrollEndDrag"
-  },
-  {
-    "name": "onScrollToTop",
-    "only": "ios"
+    "only": "android"
   },
   {
     "name": "overScrollMode",
@@ -199,67 +257,112 @@
   },
   {
     "name": "pagingEnabled",
-    "defaultValueLabel": "false",
-    "values": "boolean"
+    "defaultValueLabel": "false"
   },
   {
     "name": "persistentScrollbar",
     "defaultValueLabel": "false",
-    "only": "android",
-    "values": "boolean"
+    "only": "android"
   },
   {
     "name": "pinchGestureEnabled",
     "defaultValueLabel": "true",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "refreshControl"
   },
   {
     "name": "removeClippedSubviews",
-    "defaultValueLabel": "false",
-    "values": "boolean"
+    "defaultValueLabel": "false"
   },
   {
     "name": "scrollEnabled",
-    "defaultValueLabel": "true",
-    "values": "boolean"
+    "defaultValueLabel": "true"
   },
   {
     "name": "scrollEventThrottle",
-    "only": "ios"
+    "defaultValueLabel": "0",
+    "only": "ios",
+    "values": [
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      25,
+      50
+    ]
   },
   {
     "name": "scrollIndicatorInsets",
-    "only": "ios"
+    "defaultValueLabel": "{top:0,left:0,bottom:0,right:0}",
+    "only": "ios",
+    "values": [
+      {
+        "top": -10,
+        "left": -10,
+        "bottom": -10,
+        "right": -10
+      },
+      {
+        "top": 0,
+        "left": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      {
+        "top": 25,
+        "left": 25,
+        "bottom": 25,
+        "right": 25
+      },
+      {
+        "top": 50,
+        "left": 50,
+        "bottom": 50,
+        "right": 50
+      }
+    ]
   },
   {
     "name": "scrollPerfTag",
-    "only": "android"
+    "only": "android",
+    "values": [
+      "someScrollPerfTag"
+    ]
   },
   {
     "name": "scrollToOverflowEnabled",
     "defaultValueLabel": "false",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "scrollsToTop",
     "defaultValueLabel": "true",
-    "only": "ios",
-    "values": "boolean"
+    "only": "ios"
   },
   {
     "name": "showsHorizontalScrollIndicator",
-    "defaultValueLabel": "true",
-    "values": "boolean"
+    "defaultValueLabel": "true"
   },
   {
     "name": "showsVerticalScrollIndicator",
-    "defaultValueLabel": "true",
-    "values": "boolean"
+    "defaultValueLabel": "true"
   },
   {
     "name": "snapToAlignment",
@@ -273,30 +376,88 @@
   },
   {
     "name": "snapToEnd",
-    "defaultValueLabel": "true",
-    "values": "boolean"
+    "defaultValueLabel": "true"
   },
   {
-    "name": "snapToInterval"
+    "name": "snapToInterval",
+    "defaultValueLabel": "0",
+    "values": [
+      [
+        -100,
+        0,
+        250,
+        500
+      ],
+      [
+        0,
+        250,
+        500
+      ],
+      [
+        250,
+        500
+      ],
+      [
+        0
+      ],
+      [
+        250
+      ],
+      [
+        500
+      ]
+    ]
   },
   {
     "name": "snapToOffsets"
   },
   {
     "name": "snapToStart",
-    "defaultValueLabel": "true",
-    "values": "boolean"
+    "defaultValueLabel": "true"
   },
   {
     "name": "stickyHeaderHiddenOnScroll",
-    "defaultValueLabel": "false",
-    "values": "boolean"
+    "defaultValueLabel": "false"
   },
   {
-    "name": "stickyHeaderIndices"
+    "name": "stickyHeaderIndices",
+    "values": [
+      [
+        -100,
+        0,
+        250,
+        500
+      ],
+      [
+        0,
+        250,
+        500
+      ],
+      [
+        250,
+        500
+      ],
+      [
+        0
+      ],
+      [
+        250
+      ],
+      [
+        500
+      ]
+    ]
   },
   {
     "name": "zoomScale",
-    "only": "ios"
+    "defaultValueLabel": "1.0",
+    "only": "ios",
+    "values": [
+      -0.5,
+      0,
+      0.5,
+      1,
+      1.5
+    ]
   }
 ]
