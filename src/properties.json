@@ -1,0 +1,302 @@
+[
+  {
+    "name": "StickyHeaderComponent"
+  },
+  {
+    "name": "alwaysBounceHorizontal",
+    "defaultValueLabel": "true",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "alwaysBounceVertical",
+    "defaultValueLabel": "false",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "automaticallyAdjustContentInsets",
+    "defaultValueLabel": "true",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "automaticallyAdjustKeyboardInsets",
+    "defaultValueLabel": "false",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "automaticallyAdjustsScrollIndicatorInsets",
+    "defaultValueLabel": "true",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "bounces",
+    "defaultValueLabel": "true",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "bouncesZoom",
+    "defaultValueLabel": "true",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "canCancelContentTouches",
+    "defaultValueLabel": "true",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "centerContent",
+    "defaultValueLabel": "false",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "contentContainerStyle"
+  },
+  {
+    "name": "contentInset",
+    "only": "ios"
+  },
+  {
+    "name": "contentInsetAdjustmentBehavior",
+    "defaultValueLabel": "never",
+    "only": "ios",
+    "values": [
+      "automatic",
+      "scrollableAxes",
+      "never",
+      "always"
+    ]
+  },
+  {
+    "name": "contentOffset"
+  },
+  {
+    "name": "decelerationRate",
+    "defaultValueLabel": "normal",
+    "values": [
+      "fast",
+      "normal"
+    ]
+  },
+  {
+    "name": "directionalLockEnabled",
+    "defaultValueLabel": "false",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "disableIntervalMomentum",
+    "defaultValueLabel": "false",
+    "values": "boolean"
+  },
+  {
+    "name": "disableScrollViewPanResponder",
+    "defaultValueLabel": "false",
+    "values": "boolean"
+  },
+  {
+    "name": "endFillColor",
+    "only": "android"
+  },
+  {
+    "name": "fadingEdgeLength",
+    "only": "android"
+  },
+  {
+    "name": "horizontal",
+    "defaultValueLabel": "false",
+    "values": "boolean"
+  },
+  {
+    "name": "indicatorStyle",
+    "defaultValueLabel": "default",
+    "only": "ios",
+    "values": [
+      "default",
+      "black",
+      "white"
+    ]
+  },
+  {
+    "name": "invertStickyHeaders",
+    "defaultValueLabel": "false",
+    "values": "boolean"
+  },
+  {
+    "name": "keyboardDismissMode",
+    "defaultValueLabel": "none",
+    "values": [
+      "none",
+      "on-drag"
+    ]
+  },
+  {
+    "name": "keyboardShouldPersistTaps",
+    "defaultValueLabel": "never",
+    "values": [
+      "always",
+      "never",
+      "handled",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "name": "maintainVisibleContentPosition"
+  },
+  {
+    "name": "maximumZoomScale",
+    "only": "ios"
+  },
+  {
+    "name": "minimumZoomScale",
+    "only": "ios"
+  },
+  {
+    "name": "nestedScrollEnabled",
+    "defaultValueLabel": "true",
+    "only": "android",
+    "values": "boolean"
+  },
+  {
+    "name": "onContentSizeChange"
+  },
+  {
+    "name": "onMomentumScrollBegin"
+  },
+  {
+    "name": "onMomentumScrollEnd"
+  },
+  {
+    "name": "onScroll"
+  },
+  {
+    "name": "onScrollBeginDrag"
+  },
+  {
+    "name": "onScrollEndDrag"
+  },
+  {
+    "name": "onScrollToTop",
+    "only": "ios"
+  },
+  {
+    "name": "overScrollMode",
+    "defaultValueLabel": "auto",
+    "only": "android",
+    "values": [
+      "auto",
+      "always",
+      "never"
+    ]
+  },
+  {
+    "name": "pagingEnabled",
+    "defaultValueLabel": "false",
+    "values": "boolean"
+  },
+  {
+    "name": "persistentScrollbar",
+    "defaultValueLabel": "false",
+    "only": "android",
+    "values": "boolean"
+  },
+  {
+    "name": "pinchGestureEnabled",
+    "defaultValueLabel": "true",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "refreshControl"
+  },
+  {
+    "name": "removeClippedSubviews",
+    "defaultValueLabel": "false",
+    "values": "boolean"
+  },
+  {
+    "name": "scrollEnabled",
+    "defaultValueLabel": "true",
+    "values": "boolean"
+  },
+  {
+    "name": "scrollEventThrottle",
+    "only": "ios"
+  },
+  {
+    "name": "scrollIndicatorInsets",
+    "only": "ios"
+  },
+  {
+    "name": "scrollPerfTag",
+    "only": "android"
+  },
+  {
+    "name": "scrollToOverflowEnabled",
+    "defaultValueLabel": "false",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "scrollsToTop",
+    "defaultValueLabel": "true",
+    "only": "ios",
+    "values": "boolean"
+  },
+  {
+    "name": "showsHorizontalScrollIndicator",
+    "defaultValueLabel": "true",
+    "values": "boolean"
+  },
+  {
+    "name": "showsVerticalScrollIndicator",
+    "defaultValueLabel": "true",
+    "values": "boolean"
+  },
+  {
+    "name": "snapToAlignment",
+    "defaultValueLabel": "start",
+    "only": "ios",
+    "values": [
+      "start",
+      "center",
+      "end"
+    ]
+  },
+  {
+    "name": "snapToEnd",
+    "defaultValueLabel": "true",
+    "values": "boolean"
+  },
+  {
+    "name": "snapToInterval"
+  },
+  {
+    "name": "snapToOffsets"
+  },
+  {
+    "name": "snapToStart",
+    "defaultValueLabel": "true",
+    "values": "boolean"
+  },
+  {
+    "name": "stickyHeaderHiddenOnScroll",
+    "defaultValueLabel": "false",
+    "values": "boolean"
+  },
+  {
+    "name": "stickyHeaderIndices"
+  },
+  {
+    "name": "zoomScale",
+    "only": "ios"
+  }
+]
