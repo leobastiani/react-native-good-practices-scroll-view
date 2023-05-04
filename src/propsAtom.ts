@@ -1,6 +1,5 @@
 import {atom} from 'jotai';
 
-import * as _ from 'radash';
 import {ScrollView} from 'react-native';
 export type BooleanSwitchValues = boolean | undefined;
 
